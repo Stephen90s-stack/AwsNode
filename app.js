@@ -7,7 +7,7 @@ app.get('/',(req,res)=>{
     console.log("Hello World")
 })
 
-const port = 4000
+const port = 6000
 
 app.listen(port ,()=>{
     console.log("Server started on ", port)
